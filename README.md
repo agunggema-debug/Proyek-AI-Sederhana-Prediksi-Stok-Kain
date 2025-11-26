@@ -91,3 +91,5 @@ Untuk menyimpan atau membagikan hasil prediksi:
 2.	File bernama Prediksi_Stok_Kain.xlsx akan diunduh ke komputer Anda.
 
 
+![Hasil tampilan Prediksi Stok Kain](sample.png)
+
