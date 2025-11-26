@@ -88,6 +88,7 @@ def get_fallback_data():
         'Bulan': ['Jan', 'Feb', 'Mar', 'Apr', 'Mei', 'Jun', 'Jul', 'Agu', 'Sep', 'Okt', 'Nov', 'Des'],
         'Kain_A_Batik_Sutera': [50, 55, 60, 48, 52, 65, 70, 68, 72, 58, 62, 75],
         'Kain_B_Katun_Polos': [120, 130, 115, 125, 140, 110, 135, 122, 145, 118, 133, 150],
+        'Kain_C_Sutra_Murni': [80, 85, 78, 90, 95, 88, 92, 85, 89, 91, 87, 93],
     }
     df = pd.DataFrame(data).set_index('Bulan')
     return df.iloc[:, :].apply(pd.to_numeric, errors='coerce').dropna(axis=1)
@@ -197,4 +198,4 @@ def download_file():
     )
 if __name__ == '__main__':
     # Untuk menjalankan di lingkungan lokal:
-    app.run(debug=True)
+    app.run(debug=True) 
